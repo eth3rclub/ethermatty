@@ -59,21 +59,29 @@ body {
 
 ._button {
   display: block;
-  float: left;
   height: 35px;
   min-height: 35px;
-  margin-top: 8px;
   background-color: rgba(222, 222, 222, 0);
   text-align: center;
 }
 
+.navbar ._button {
+  float: left;
+  margin-top: 8px;
+  font-size: 0.727em;
+}
+
+.navbar ._button:hover {
+  border-style: solid;
+}
+
 .container-1 {
   clear: both;
-  margin: 220px 0 0 13.61589%;
+  margin: 218px 0 0 10%;
 }
 
 .container-2 {
-  margin: 554px 0 0 6.46875%;
+  margin: 552px 0 0 24.4974%;
 }
 
 .element-2 {
@@ -82,7 +90,7 @@ body {
   z-index: 6;
   width: 100%;
   height: 367px;
-  margin-top: 552px;
+  margin-top: 554px;
   background-image: url('../images/oboi2.png');
   background-position: center center;
   background-attachment: fixed;
@@ -126,16 +134,42 @@ body {
 }
 
 .text-6 {
-  margin: 2590px auto 0;
+  margin: 0 auto;
   font-size: 0.727em;
   color: rgb(0, 0, 0);
+}
+
+._button-5 {
+  width: 15.1666666666%;
+  min-width: 172px;
+  margin: 2555px auto 0;
+  border: 2px solid rgb(255, 54, 54);
+  border-radius: 6px;
+  font-size: 0.636em;
+  color: rgb(255, 54, 54);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+._button-5:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  border-radius: 6px;
+  background-color: rgb(255, 54, 54);
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .navbar ._button-1 {
   width: 7.5020610057%;
   min-width: 90px;
   margin-left: 1.1731799999%;
-  font-size: 0.727em;
   color: rgb(0, 0, 0);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -148,7 +182,6 @@ body {
   width: 7.9142621599%;
   min-width: 95px;
   margin-left: 1.17448%;
-  font-size: 0.727em;
   color: rgb(0, 0, 0);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -161,7 +194,6 @@ body {
   width: 7.5020610057%;
   min-width: 90px;
   margin-left: 1.17448%;
-  font-size: 0.727em;
   color: rgb(0, 0, 0);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -173,43 +205,17 @@ body {
 .navbar ._button-1:hover,
 .navbar ._button-2:hover,
 .navbar ._button-3:hover {
-  border: 2px solid rgb(0, 0, 0);
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
   border-radius: 6px;
 }
 
 .navbar ._button-4 {
-  width: 14.3333333333%;
-  min-width: 172px;
-  margin-left: 8.47917%;
-  border-radius: 6px;
-  font-size: 0.636em;
-  color: rgb(255, 255, 255);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -ms-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.navbar ._button-4:hover {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-style: none;
-  border-radius: 6px;
-  background-color: rgb(144, 155, 233);
-  font-size: 14px;
-  color: #ffffff;
-}
-
-.navbar ._button-5 {
   width: 11.788953009%;
   min-width: 141px;
-  margin-left: 8.71094%;
+  margin-left: 31.52344%;
   border: 2px solid #ff3636;
   border-radius: 6px;
-  font-size: 0.727em;
   color: rgb(255, 54, 54);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -218,8 +224,9 @@ body {
   transition: 0.3s;
 }
 
-.navbar ._button-5:hover {
-  border: 2 solid #909be9;
+.navbar ._button-4:hover {
+  border-width: 2;
+  border-color: #909be9;
   border-radius: 6px;
   background-color: rgb(255, 54, 54);
   color: #ffffff;
@@ -227,8 +234,6 @@ body {
 
 @media(max-width: 900px) {
   .element {
-    position: relative;
-    z-index: 6;
     margin-top: 553px;
   }
 
@@ -236,9 +241,8 @@ body {
     height: 47px;
   }
 
-  .navbar .element {
-    position: relative;
-    z-index: 10;
+  ._button {
+    width: 28.6666666666%;
   }
 
   .container .text-1 {
@@ -262,13 +266,17 @@ body {
     width: 41.4444444444%;
     height: 255px;
     margin-top: 206px;
-    margin-left: 10%;
   }
 
   .container-2 {
     width: 38.5555555555%;
     margin-top: 553px;
     margin-left: 0;
+  }
+
+  .element-2 {
+    position: relative;
+    z-index: 6;
   }
 
   .text-5 {
@@ -278,23 +286,14 @@ body {
     margin-left: 28.79861%;
   }
 
-  .navbar ._button-2 {
-    position: relative;
-    z-index: 13;
-    margin-left: 1.17188%;
-  }
-
   .navbar ._button-1,
+  .navbar ._button-2,
   .navbar ._button-3 {
     margin-left: 1.17188%;
   }
 
   .navbar ._button-4 {
-    margin-left: 2.40278%;
-  }
-
-  .navbar ._button-5 {
-    margin-left: 3.13021%;
+    margin-left: 24.6441%;
   }
 }
 
@@ -303,18 +302,12 @@ body {
     font-size: 1.375em;
   }
 
-  .element {
-    position: relative;
-    z-index: 6;
-  }
-
   .navbar {
     height: 51px;
   }
 
-  .navbar .element {
-    position: relative;
-    z-index: 10;
+  ._button {
+    min-width: 0;
   }
 
   .container .text-1 {
@@ -340,6 +333,8 @@ body {
   }
 
   .element-2 {
+    position: relative;
+    z-index: 6;
     margin-top: 605px;
   }
 
@@ -350,29 +345,12 @@ body {
     margin-left: 16.79948%;
   }
 
-  .navbar ._button-1 {
-    position: relative;
-    z-index: 12;
-  }
-
-  .navbar ._button-2 {
-    position: relative;
-    z-index: 13;
+  ._button-5 {
+    min-height: 0;
   }
 
   .navbar ._button-4 {
-    clear: both;
-    width: 28.6666666666%;
-    min-width: 0;
-    height: 1px;
-    min-height: 0;
-    margin-top: 0;
-    margin-left: 10%;
-  }
-
-  .navbar ._button-5 {
-    margin-top: -42px;
-    margin-left: 33.86198%;
+    margin-left: 4.89844%;
   }
 }
 
@@ -382,22 +360,12 @@ body {
     margin-left: 18.75%;
   }
 
-  .element {
-    position: relative;
-    z-index: 6;
-  }
-
   .navbar {
     height: 89px;
   }
 
-  .navbar .element {
-    position: relative;
-    z-index: 10;
-  }
-
-  .navbar ._button {
-    position: relative;
+  ._button {
+    margin-top: 2586px;
   }
 
   .container .text-1 {
@@ -432,6 +400,8 @@ body {
   }
 
   .element-2 {
+    position: relative;
+    z-index: 6;
     margin-top: 540px;
   }
 
@@ -445,28 +415,24 @@ body {
     font-size: 1.636em;
   }
 
-  .navbar ._button-1 {
-    z-index: 12;
+  ._button-5 {
+    width: 42.5%;
+    min-width: 2px;
   }
 
   .navbar ._button-2 {
+    position: relative;
     z-index: 13;
   }
 
   .navbar ._button-3 {
+    position: relative;
     z-index: 14;
   }
 
   .navbar ._button-4 {
-    z-index: 15;
-    width: 2%;
-    min-width: 2px;
-    margin-left: 10.25%;
-  }
-
-  .navbar ._button-5 {
-    z-index: 11;
+    clear: both;
     margin-top: 0;
-    margin-left: 47.04688%;
+    margin-left: 59.29688%;
   }
 }

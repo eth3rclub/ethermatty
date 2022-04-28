@@ -5,7 +5,6 @@ body {
 }
 
 .element {
-  float: left;
   background-repeat: no-repeat;
   background-position: left top;
   background-color: rgba(222, 222, 222, 0);
@@ -20,6 +19,7 @@ body {
 }
 
 .navbar .element {
+  float: left;
   width: 48px;
   height: 48px;
   margin: 2px 0 0 10.28125%;
@@ -28,7 +28,7 @@ body {
 }
 
 .text {
-  margin: 2590px auto 0;
+  margin: 0 auto;
   font-size: 1em;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -36,28 +36,61 @@ body {
 
 ._button {
   display: block;
-  float: left;
   height: 35px;
   min-height: 35px;
-  margin-top: 8px;
   background-color: rgba(222, 222, 222, 0);
   text-align: center;
 }
 
+.navbar ._button {
+  float: left;
+  margin-top: 8px;
+  font-size: 1em;
+}
+
+.navbar ._button:hover {
+  border-style: solid;
+}
+
 .element-2 {
-  clear: both;
   width: 694px;
   height: 240px;
-  margin: 53px 0 0 21.28125%;
+  margin: 103px auto 0;
   background-image: url('../images/etherclub.png');
   background-size: auto auto;
+}
+
+._button-5 {
+  width: 15.1666666666%;
+  min-width: 172px;
+  margin: 2212px auto 0;
+  border: 2px solid rgb(255, 54, 54);
+  border-radius: 6px;
+  font-size: 0.875em;
+  color: rgb(255, 54, 54);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+._button-5:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  border-radius: 6px;
+  background-color: rgb(255, 54, 54);
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .navbar ._button-1 {
   width: 7.5020610057%;
   min-width: 90px;
   margin-left: 1.1731799999%;
-  font-size: 1em;
   color: rgb(0, 0, 0);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -70,7 +103,6 @@ body {
   width: 7.9142621599%;
   min-width: 95px;
   margin-left: 1.17448%;
-  font-size: 1em;
   color: rgb(0, 0, 0);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -83,7 +115,6 @@ body {
   width: 7.5020610057%;
   min-width: 90px;
   margin-left: 1.17448%;
-  font-size: 1em;
   color: rgb(0, 0, 0);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -95,43 +126,17 @@ body {
 .navbar ._button-1:hover,
 .navbar ._button-2:hover,
 .navbar ._button-3:hover {
-  border: 2px solid rgb(0, 0, 0);
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
   border-radius: 6px;
 }
 
 .navbar ._button-4 {
-  width: 14.3333333333%;
-  min-width: 172px;
-  margin-left: 8.47917%;
-  border-radius: 6px;
-  font-size: 0.875em;
-  color: rgb(255, 255, 255);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -ms-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.navbar ._button-4:hover {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-style: none;
-  border-radius: 6px;
-  background-color: rgb(144, 155, 233);
-  font-size: 14px;
-  color: #ffffff;
-}
-
-.navbar ._button-5 {
   width: 11.788953009%;
   min-width: 141px;
-  margin-left: 8.71094%;
+  margin-left: 31.52344%;
   border: 2px solid #ff3636;
   border-radius: 6px;
-  font-size: 1em;
   color: rgb(255, 54, 54);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -140,8 +145,9 @@ body {
   transition: 0.3s;
 }
 
-.navbar ._button-5:hover {
-  border: 2 solid #909be9;
+.navbar ._button-4:hover {
+  border-width: 2;
+  border-color: #909be9;
   border-radius: 6px;
   background-color: rgb(255, 54, 54);
   color: #ffffff;
@@ -150,36 +156,30 @@ body {
 @media(max-width: 900px) {
   .element {
     width: 480px;
-    margin-top: 48px;
-    margin-left: 11.39063%;
+    margin-top: 95px;
   }
 
   .navbar {
     height: 47px;
   }
 
-  .navbar .element {
-    position: relative;
-    z-index: 2;
+  ._button {
+    width: 28.6666666666%;
+    margin-top: 2220px;
   }
 
-  .navbar ._button-2 {
-    position: relative;
-    z-index: 5;
-    margin-left: 1.17188%;
+  .element-2 {
+    border-radius: 24px;
   }
 
   .navbar ._button-1,
+  .navbar ._button-2,
   .navbar ._button-3 {
     margin-left: 1.17188%;
   }
 
   .navbar ._button-4 {
-    margin-left: 2.40278%;
-  }
-
-  .navbar ._button-5 {
-    margin-left: 3.13021%;
+    margin-left: 24.6441%;
   }
 }
 
@@ -192,40 +192,21 @@ body {
     height: 51px;
   }
 
-  .navbar .element {
-    position: relative;
-    z-index: 2;
+  ._button {
+    min-width: 0;
   }
 
   .element-2 {
-    margin-top: 50px;
-    margin-left: 10%;
-    border-radius: 24px;
+    margin-top: 101px;
   }
 
-  .navbar ._button-1 {
-    position: relative;
-    z-index: 4;
-  }
-
-  .navbar ._button-2 {
-    position: relative;
-    z-index: 5;
+  ._button-5 {
+    min-height: 0;
+    margin-top: 2214px;
   }
 
   .navbar ._button-4 {
-    clear: both;
-    width: 28.6666666666%;
-    min-width: 0;
-    height: 1px;
-    min-height: 0;
-    margin-top: 0;
-    margin-left: 10%;
-  }
-
-  .navbar ._button-5 {
-    margin-top: -42px;
-    margin-left: 33.86198%;
+    margin-left: 4.89844%;
   }
 }
 
@@ -234,43 +215,30 @@ body {
     height: 89px;
   }
 
-  .navbar .element {
-    position: relative;
-    z-index: 2;
-  }
-
-  .navbar ._button {
-    position: relative;
-  }
-
   .element-2 {
     width: 272px;
-    margin-top: 102px;
-    margin-left: 15.19922%;
+    margin-top: 191px;
   }
 
-  .navbar ._button-1 {
-    z-index: 4;
+  ._button-5 {
+    width: 42.5%;
+    min-width: 2px;
+    margin-top: 2124px;
   }
 
   .navbar ._button-2 {
-    z-index: 5;
-  }
-
-  .navbar ._button-3 {
+    position: relative;
     z-index: 6;
   }
 
-  .navbar ._button-4 {
+  .navbar ._button-3 {
+    position: relative;
     z-index: 7;
-    width: 2%;
-    min-width: 2px;
-    margin-left: 10.25%;
   }
 
-  .navbar ._button-5 {
-    z-index: 3;
+  .navbar ._button-4 {
+    clear: both;
     margin-top: 0;
-    margin-left: 47.04688%;
+    margin-left: 59.29688%;
   }
 }

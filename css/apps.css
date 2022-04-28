@@ -10,7 +10,7 @@ body {
   width: 31.3333333333%;
   height: 262px;
   max-height: 279px;
-  margin-top: 85px;
+  margin-top: 221px;
 }
 
 .container .text {
@@ -44,20 +44,20 @@ body {
 
 ._button {
   display: block;
-  float: left;
   background-color: rgba(222, 222, 222, 0);
   text-align: center;
 }
 
 .container ._button {
+  float: left;
   clear: both;
   width: 376px;
   height: 39px;
   max-height: 39px;
-  border: 2px solid rgb(43, 40, 40);
+  border-width: 2px;
+  border-style: solid;
   border-radius: 6px;
   font-size: 0.762em;
-  color: rgb(43, 40, 40);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
@@ -66,14 +66,19 @@ body {
 }
 
 .container ._button:hover {
-  background-color: rgb(43, 40, 40);
   color: rgb(255, 255, 255);
 }
 
 .navbar ._button {
+  float: left;
   height: 35px;
   min-height: 35px;
   margin-top: 8px;
+  font-size: 0.762em;
+}
+
+.navbar ._button:hover {
+  border-style: solid;
 }
 
 .container-1 {
@@ -84,63 +89,95 @@ body {
 
 .container-2 {
   z-index: 8;
-  margin-left: 17.33073%;
+  margin-left: 27.33333%;
 }
 
-.text-1 {
-  width: 375px;
-  height: 49px;
-  margin: 137px auto 0;
-  font-size: 1.714em;
-  color: rgb(43, 40, 40);
-}
-
-.text-3 {
+.text-2 {
   clear: both;
   width: 373px;
   font-size: 1em;
 }
 
-.text-2,
-.text-4 {
+.text-1,
+.text-3 {
   width: 375px;
   height: 49px;
   font-size: 1.714em;
 }
 
-.text-5 {
+.text-4 {
   clear: both;
   width: 373px;
   font-size: 1.048em;
 }
 
-.text-6 {
+.text-5 {
   width: 375px;
   height: 49px;
-  margin: 466px auto 0;
+  margin: 652px auto 0;
   font-size: 1.714em;
   color: rgb(255, 54, 54);
 }
 
-.text-7 {
-  margin: 1890px auto 0;
+.text-6 {
+  margin: 0 auto;
   font-size: 0.762em;
   color: rgb(0, 0, 0);
 }
 
-.container ._button-6 {
-  margin: 7px 0 0 -0.06649%;
+._button-7 {
+  width: 15.1666666666%;
+  min-width: 172px;
+  height: 35px;
+  min-height: 35px;
+  margin: 1855px auto 0;
+  border: 2px solid rgb(255, 54, 54);
+  border-radius: 6px;
+  font-size: 0.667em;
+  color: rgb(255, 54, 54);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
 }
 
-.container ._button-7 {
+._button-7:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  border-radius: 6px;
+  background-color: rgb(255, 54, 54);
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.container ._button-5 {
+  margin: 7px 0 0 -0.06649%;
+  border-color: rgb(43, 40, 40);
+  color: rgb(43, 40, 40);
+}
+
+.container ._button-5:hover {
+  background-color: rgb(43, 40, 40);
+}
+
+.container ._button-6 {
   margin-top: 55px;
+  border-color: rgb(242, 50, 50);
+  color: rgb(242, 50, 50);
+}
+
+.container ._button-6:hover {
+  background-color: rgb(242, 50, 50);
 }
 
 .navbar ._button-1 {
   width: 7.5020610057%;
   min-width: 90px;
   margin-left: 1.1731799999%;
-  font-size: 0.762em;
   color: rgb(0, 0, 0);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -153,7 +190,6 @@ body {
   width: 7.9142621599%;
   min-width: 95px;
   margin-left: 1.17448%;
-  font-size: 0.762em;
   color: rgb(0, 0, 0);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -166,7 +202,6 @@ body {
   width: 7.5020610057%;
   min-width: 90px;
   margin-left: 1.17448%;
-  font-size: 0.762em;
   color: rgb(0, 0, 0);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -178,43 +213,17 @@ body {
 .navbar ._button-1:hover,
 .navbar ._button-2:hover,
 .navbar ._button-3:hover {
-  border: 2px solid rgb(0, 0, 0);
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
   border-radius: 6px;
 }
 
 .navbar ._button-4 {
-  width: 14.3333333333%;
-  min-width: 172px;
-  margin-left: 8.47917%;
-  border-radius: 6px;
-  font-size: 0.667em;
-  color: rgb(255, 255, 255);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -ms-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.navbar ._button-4:hover {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-style: none;
-  border-radius: 6px;
-  background-color: rgb(144, 155, 233);
-  font-size: 14px;
-  color: #ffffff;
-}
-
-.navbar ._button-5 {
   width: 11.788953009%;
   min-width: 141px;
-  margin-left: 8.71094%;
+  margin-left: 31.52344%;
   border: 2px solid #ff3636;
   border-radius: 6px;
-  font-size: 0.762em;
   color: rgb(255, 54, 54);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -223,8 +232,9 @@ body {
   transition: 0.3s;
 }
 
-.navbar ._button-5:hover {
-  border: 2 solid #909be9;
+.navbar ._button-4:hover {
+  border-width: 2;
+  border-color: #909be9;
   border-radius: 6px;
   background-color: rgb(255, 54, 54);
   color: #ffffff;
@@ -262,7 +272,6 @@ body {
     position: relative;
     height: 319px;
     max-height: none;
-    margin-top: 72px;
   }
 
   .container .text {
@@ -273,80 +282,65 @@ body {
     height: 47px;
   }
 
-  .navbar .element {
-    position: relative;
-    z-index: 9;
+  ._button {
+    width: 28.6666666666%;
+    margin-top: 2556px;
   }
 
   .container ._button {
     width: 282px;
   }
 
+  .container .text-1,
   .container .text-2,
-  .container .text-3,
-  .container .text-4 {
+  .container .text-3 {
     width: 282px;
   }
 
-  .container .text-5 {
+  .container .text-4 {
     width: 277px;
   }
 
   .container-1 {
     z-index: 4;
     width: 46.8333333333%;
+    margin-top: 224px;
   }
 
   .container-2 {
     clear: both;
     z-index: 8;
     width: 47%;
+    margin-top: 72px;
     margin-left: 17.3316%;
   }
 
-  .text-1 {
-    margin-top: 150px;
-  }
-
-  .text-6 {
+  .text-5 {
     position: relative;
     float: left;
     clear: both;
-    z-index: 17;
+    z-index: 9;
     margin-top: -329px;
     margin-right: 0;
     margin-left: 29.16667%;
   }
 
-  .text-7 {
-    margin-top: 2392px;
-  }
-
-  .container ._button-6 {
+  .container ._button-5 {
     margin-left: 0;
   }
 
-  .container ._button-7 {
+  .container ._button-6 {
     margin-top: 111px;
   }
 
-  .navbar ._button-2 {
-    position: relative;
-    z-index: 12;
-    margin-left: 1.17188%;
-  }
-
   .navbar ._button-1,
+  .navbar ._button-2,
   .navbar ._button-3 {
     margin-left: 1.17188%;
   }
 
   .navbar ._button-4 {
-    margin-left: 2.40278%;
-  }
-
-  .navbar ._button-5 {
-    margin-left: 3.13021%;
+    margin-left: 24.6441%;
   }
 }
 
@@ -367,18 +361,14 @@ body {
     height: 51px;
   }
 
-  .navbar .element {
-    position: relative;
-    z-index: 9;
-  }
-
-  .container .text-4,
-  .container .text-5 {
+  .container .text-3,
+  .container .text-4 {
     margin-left: -0.06649%;
   }
 
   .container-1 {
     z-index: 4;
+    margin-top: 271px;
   }
 
   .container-2 {
@@ -386,49 +376,30 @@ body {
     margin-top: 45px;
   }
 
-  .text-6 {
+  .text-5 {
     position: relative;
     float: none;
     clear: none;
-    z-index: 17;
+    z-index: 9;
     margin-top: 46px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .text-7 {
-    margin-top: 1542px;
+  ._button-7 {
+    min-width: 0;
+    min-height: 0;
+    margin-top: 1507px;
   }
 
-  .container ._button-6,
-  .container .text-2,
-  .container .text-3 {
+  .container ._button-5,
+  .container .text-1,
+  .container .text-2 {
     margin-left: -0.35587%;
   }
 
-  .navbar ._button-1 {
-    position: relative;
-    z-index: 11;
-  }
-
-  .navbar ._button-2 {
-    position: relative;
-    z-index: 12;
-  }
-
   .navbar ._button-4 {
-    clear: both;
-    width: 28.6666666666%;
-    min-width: 0;
-    height: 1px;
-    min-height: 0;
-    margin-top: 0;
-    margin-left: 10%;
-  }
-
-  .navbar ._button-5 {
-    margin-top: -42px;
-    margin-left: 33.86198%;
+    margin-left: 4.89844%;
   }
 }
 
@@ -441,26 +412,17 @@ body {
     height: 89px;
   }
 
-  .navbar .element {
-    position: relative;
-    z-index: 9;
-  }
-
   .container ._button {
     width: 278px;
   }
 
-  .navbar ._button {
-    position: relative;
-  }
-
-  .container .text-2,
-  .container .text-3 {
+  .container .text-1,
+  .container .text-2 {
     margin-left: -0.06205%;
   }
 
-  .container .text-4,
-  .container .text-5 {
+  .container .text-3,
+  .container .text-4 {
     margin-left: -0.05621%;
   }
 
@@ -475,42 +437,35 @@ body {
     margin-top: 72px;
   }
 
-  .text-6 {
+  .text-5 {
     position: relative;
-    z-index: 17;
+    z-index: 9;
     margin-top: 83px;
   }
 
-  .text-7 {
-    margin-top: 1478px;
+  ._button-7 {
+    width: 42.5%;
+    min-width: 2px;
+    margin-top: 1443px;
   }
 
-  .container ._button-6 {
+  .container ._button-5 {
     margin-left: -0.36101%;
   }
 
-  .navbar ._button-1 {
-    z-index: 11;
-  }
-
   .navbar ._button-2 {
-    z-index: 12;
+    position: relative;
+    z-index: 14;
   }
 
   .navbar ._button-3 {
-    z-index: 13;
+    position: relative;
+    z-index: 15;
   }
 
   .navbar ._button-4 {
-    z-index: 14;
-    width: 2%;
-    min-width: 2px;
-    margin-left: 10.25%;
-  }
-
-  .navbar ._button-5 {
-    z-index: 10;
+    clear: both;
     margin-top: 0;
-    margin-left: 47.04688%;
+    margin-left: 59.29688%;
   }
 }
