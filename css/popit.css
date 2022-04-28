@@ -1,0 +1,783 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.375em/1.38 Helvetica;
+  color: #271948;
+}
+
+.container {
+  position: relative;
+  float: left;
+  margin-top: 80px;
+}
+
+.container .element {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 36px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container .text {
+  position: relative;
+  float: left;
+  color: #271948;
+}
+
+.element {
+  float: left;
+}
+
+.navbar {
+  float: left;
+  width: 100%;
+  height: 50px;
+  min-height: 47px;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar .element {
+  width: 48px;
+  height: 48px;
+  margin: 2px 0 0 10.28125%;
+  background: url('../images/mattyether.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+.text {
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 21;
+  width: 5.0833333333%;
+  height: 107px;
+  margin: 17px 0 0 4.91667%;
+  overflow: hidden;
+}
+
+._button {
+  display: block;
+  float: left;
+  height: 35px;
+  min-height: 35px;
+  margin-top: 8px;
+  background-color: rgba(222, 222, 222, 0);
+  text-align: center;
+}
+
+.container-1 {
+  z-index: 16;
+  width: 33.5833333333%;
+  height: 404px;
+  min-height: 404px;
+  margin-left: 5.28125%;
+}
+
+.container-2 {
+  z-index: 20;
+  width: 28%;
+  height: 297px;
+  margin-left: 0.29948%;
+}
+
+.element-10 {
+  clear: both;
+  z-index: 2;
+  margin-left: 0.15509%;
+  background-color: rgb(131, 255, 77);
+}
+
+.element-11 {
+  z-index: 6;
+  margin-left: 0.15509%;
+  background-color: rgb(131, 255, 77);
+}
+
+.element-12 {
+  z-index: 10;
+  background-color: rgb(131, 255, 77);
+}
+
+.element-13 {
+  z-index: 14;
+  background-color: rgb(131, 255, 77);
+}
+
+.element-10:hover,
+.element-11:hover,
+.element-12:hover,
+.element-13:hover {
+  background-color: rgb(89, 182, 48);
+}
+
+.element-14 {
+  clear: both;
+  z-index: 3;
+  margin-left: 0.15509%;
+  background-color: rgb(77, 255, 199);
+}
+
+.element-15 {
+  z-index: 7;
+  margin-left: 0.15509%;
+  background-color: rgb(77, 255, 199);
+}
+
+.element-16 {
+  z-index: 11;
+  background-color: rgb(77, 255, 199);
+}
+
+.element-17 {
+  z-index: 15;
+  background-color: rgb(77, 255, 199);
+}
+
+.element-14:hover,
+.element-15:hover,
+.element-16:hover,
+.element-17:hover {
+  background-color: rgb(41, 175, 153);
+}
+
+.element-2 {
+  z-index: 0;
+  background-color: rgb(255, 77, 77);
+}
+
+.element-3 {
+  z-index: 4;
+  margin-left: 0.15509%;
+  background-color: rgb(255, 77, 77);
+}
+
+.element-4 {
+  z-index: 8;
+  background-color: rgb(255, 77, 77);
+}
+
+.element-5 {
+  z-index: 12;
+  background-color: rgb(255, 77, 77);
+}
+
+.element-2:hover,
+.element-3:hover,
+.element-4:hover,
+.element-5:hover {
+  background-color: rgb(208, 70, 70);
+}
+
+.element-6 {
+  clear: both;
+  z-index: 1;
+  margin-left: 0.15509%;
+  background-color: rgb(255, 170, 77);
+}
+
+.element-7 {
+  z-index: 5;
+  margin-left: 0.15509%;
+  background-color: rgb(255, 170, 77);
+}
+
+.element-8 {
+  z-index: 9;
+  background-color: rgb(255, 170, 77);
+}
+
+.element-9 {
+  z-index: 13;
+  background-color: rgb(255, 170, 77);
+}
+
+.element-6:hover,
+.element-7:hover,
+.element-8:hover,
+.element-9:hover {
+  background-color: rgb(214, 138, 55);
+}
+
+.text-1 {
+  z-index: 19;
+  margin-top: 56px;
+  font-size: 1em;
+}
+
+.text-2 {
+  clear: both;
+  z-index: 18;
+  margin: -296px 0 0 0.93471%;
+  font-size: 2.136em;
+}
+
+.text-3 {
+  margin: 2590px auto 0;
+  font-size: 0.727em;
+  color: rgb(0, 0, 0);
+}
+
+.navbar ._button-1 {
+  width: 7.5020610057%;
+  min-width: 90px;
+  margin-left: 1.1731799999%;
+  font-size: 0.727em;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.navbar ._button-2 {
+  width: 7.9142621599%;
+  min-width: 95px;
+  margin-left: 1.17448%;
+  font-size: 0.727em;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.navbar ._button-3 {
+  width: 7.5020610057%;
+  min-width: 90px;
+  margin-left: 1.17448%;
+  font-size: 0.727em;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.navbar ._button-1:hover,
+.navbar ._button-2:hover,
+.navbar ._button-3:hover {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 6px;
+}
+
+.navbar ._button-4 {
+  width: 14.3333333333%;
+  min-width: 172px;
+  margin-left: 8.47917%;
+  border-radius: 6px;
+  font-size: 0.636em;
+  color: rgb(255, 255, 255);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar ._button-4:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  border-radius: 6px;
+  background-color: rgb(144, 155, 233);
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.navbar ._button-5 {
+  width: 11.788953009%;
+  min-width: 141px;
+  margin-left: 8.71094%;
+  border: 2px solid #ff3636;
+  border-radius: 6px;
+  font-size: 0.727em;
+  color: rgb(255, 54, 54);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar ._button-5:hover {
+  border: 2 solid #909be9;
+  border-radius: 6px;
+  background-color: rgb(255, 54, 54);
+  color: #ffffff;
+}
+
+@media(max-width: 900px) {
+  .container {
+    position: relative;
+  }
+
+  .container .element {
+    position: relative;
+  }
+
+  .container .text {
+    position: relative;
+  }
+
+  .navbar {
+    height: 47px;
+  }
+
+  .navbar .element {
+    position: relative;
+    z-index: 22;
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 21;
+  }
+
+  .container .element-10 {
+    z-index: 2;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-11 {
+    z-index: 6;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-12 {
+    z-index: 10;
+  }
+
+  .container .element-13 {
+    z-index: 14;
+  }
+
+  .container .element-14 {
+    z-index: 3;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-15 {
+    z-index: 7;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-16 {
+    z-index: 11;
+  }
+
+  .container .element-17 {
+    z-index: 15;
+  }
+
+  .container .element-2 {
+    z-index: 0;
+  }
+
+  .container .element-3 {
+    z-index: 4;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-4 {
+    z-index: 8;
+  }
+
+  .container .element-5 {
+    z-index: 12;
+  }
+
+  .container .element-6 {
+    z-index: 1;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-7 {
+    z-index: 5;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-8 {
+    z-index: 9;
+  }
+
+  .container .element-9 {
+    z-index: 13;
+  }
+
+  .container .text-1 {
+    z-index: 19;
+    width: 484px;
+    height: 210px;
+    margin-top: 55px;
+  }
+
+  .container .text-2 {
+    z-index: 18;
+    width: 486px;
+    height: 55px;
+    margin-top: -265px;
+    margin-left: 0.8230499999%;
+    font-size: 1.773em;
+  }
+
+  .container-1 {
+    z-index: 16;
+    width: 44.8888888888%;
+    margin-top: 308px;
+    margin-left: 18.79861%;
+  }
+
+  .container-2 {
+    clear: both;
+    z-index: 20;
+    width: 54%;
+    height: 265px;
+    margin-top: -677px;
+    margin-left: 23.59896%;
+  }
+
+  .navbar ._button-2 {
+    position: relative;
+    z-index: 25;
+    margin-left: 1.17188%;
+  }
+
+  .navbar ._button-1,
+  .navbar ._button-3 {
+    margin-left: 1.17188%;
+  }
+
+  .navbar ._button-4 {
+    margin-left: 2.40278%;
+  }
+
+  .navbar ._button-5 {
+    margin-left: 3.13021%;
+  }
+}
+
+@media(max-width: 600px) {
+  body {
+    font-size: 1.375em;
+  }
+
+  .container,
+  .container .text {
+    position: relative;
+  }
+
+  .container .element {
+    position: relative;
+  }
+
+  .navbar {
+    height: 51px;
+  }
+
+  .navbar .element {
+    position: relative;
+    z-index: 22;
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 21;
+  }
+
+  .container .element-10 {
+    z-index: 2;
+    margin-left: 0.15159%;
+  }
+
+  .container .element-11 {
+    z-index: 6;
+    margin-left: 0.15159%;
+  }
+
+  .container .element-12 {
+    z-index: 10;
+  }
+
+  .container .element-13 {
+    z-index: 14;
+  }
+
+  .container .element-14 {
+    z-index: 3;
+    margin-left: 0.15159%;
+  }
+
+  .container .element-15 {
+    z-index: 7;
+    margin-left: 0.15159%;
+  }
+
+  .container .element-16 {
+    z-index: 11;
+  }
+
+  .container .element-17 {
+    z-index: 15;
+  }
+
+  .container .element-2 {
+    z-index: 0;
+  }
+
+  .container .element-3 {
+    z-index: 4;
+    margin-left: 0.15159%;
+  }
+
+  .container .element-4 {
+    z-index: 8;
+  }
+
+  .container .element-5 {
+    z-index: 12;
+  }
+
+  .container .element-6 {
+    z-index: 1;
+    margin-left: 0.15159%;
+  }
+
+  .container .element-7 {
+    z-index: 5;
+    margin-left: 0.15159%;
+  }
+
+  .container .element-8 {
+    z-index: 9;
+  }
+
+  .container .element-9 {
+    z-index: 13;
+  }
+
+  .container .text-1 {
+    z-index: 19;
+    width: 324px;
+    height: 181px;
+    margin-top: 64px;
+  }
+
+  .container .text-2 {
+    z-index: 18;
+    width: 316px;
+    height: 64px;
+    margin-top: -245px;
+    margin-left: -0.60764%;
+  }
+
+  .container-1 {
+    z-index: 16;
+    width: 67%;
+    margin-top: 319px;
+    margin-left: 6.5%;
+  }
+
+  .container-2 {
+    z-index: 20;
+    height: 307px;
+    margin-top: -711px;
+    margin-left: 24%;
+  }
+
+  .navbar ._button-1 {
+    position: relative;
+    z-index: 24;
+  }
+
+  .navbar ._button-2 {
+    position: relative;
+    z-index: 25;
+  }
+
+  .navbar ._button-4 {
+    clear: both;
+    width: 28.6666666666%;
+    min-width: 0;
+    height: 1px;
+    min-height: 0;
+    margin-top: 0;
+    margin-left: 10%;
+  }
+
+  .navbar ._button-5 {
+    margin-top: -42px;
+    margin-left: 33.86198%;
+  }
+}
+
+@media(max-width: 400px) {
+  .container {
+    position: relative;
+    margin-left: 0;
+  }
+
+  .container .element {
+    position: relative;
+  }
+
+  .container .text {
+    position: relative;
+    width: 399px;
+  }
+
+  .navbar {
+    height: 89px;
+  }
+
+  .navbar .element {
+    position: relative;
+    z-index: 22;
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 21;
+    margin-left: 4.91016%;
+  }
+
+  .navbar ._button {
+    position: relative;
+  }
+
+  .container .element-10 {
+    z-index: 2;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-11 {
+    z-index: 6;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-12 {
+    z-index: 10;
+  }
+
+  .container .element-13 {
+    z-index: 14;
+  }
+
+  .container .element-14 {
+    z-index: 3;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-15 {
+    z-index: 7;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-16 {
+    z-index: 11;
+  }
+
+  .container .element-17 {
+    z-index: 15;
+  }
+
+  .container .element-2 {
+    z-index: 0;
+  }
+
+  .container .element-3 {
+    z-index: 4;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-4 {
+    z-index: 8;
+  }
+
+  .container .element-5 {
+    z-index: 12;
+  }
+
+  .container .element-6 {
+    z-index: 1;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-7 {
+    z-index: 5;
+    margin-left: 0.15084%;
+  }
+
+  .container .element-8 {
+    z-index: 9;
+  }
+
+  .container .element-9 {
+    z-index: 13;
+  }
+
+  .container .text-1 {
+    z-index: 19;
+    height: 189px;
+  }
+
+  .container .text-2 {
+    z-index: 18;
+    margin-top: -253px;
+    margin-left: 0;
+  }
+
+  .container-1 {
+    clear: both;
+    z-index: 16;
+    width: 101%;
+    margin-top: 484px;
+  }
+
+  .container-2 {
+    z-index: 20;
+    width: 99.75%;
+    height: 275px;
+    margin-top: -728px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .navbar ._button-1 {
+    z-index: 24;
+  }
+
+  .navbar ._button-2 {
+    z-index: 25;
+  }
+
+  .navbar ._button-3 {
+    z-index: 26;
+  }
+
+  .navbar ._button-4 {
+    z-index: 27;
+    width: 2%;
+    min-width: 2px;
+    margin-left: 10.25%;
+  }
+
+  .navbar ._button-5 {
+    z-index: 23;
+    margin-top: 0;
+    margin-left: 47.04688%;
+  }
+}

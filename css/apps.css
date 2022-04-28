@@ -1,0 +1,516 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.313em/1.38 Helvetica;
+  color: rgb(43, 40, 40);
+}
+
+.container {
+  position: relative;
+  float: left;
+  width: 31.3333333333%;
+  height: 262px;
+  max-height: 279px;
+  margin-top: 85px;
+}
+
+.container .text {
+  float: left;
+  margin-left: -0.06649%;
+  color: rgb(43, 40, 40);
+}
+
+.element {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin: 2px 0 0 10.28125%;
+  background: url('../images/mattyether.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+.navbar {
+  float: left;
+  width: 100%;
+  height: 50px;
+  min-height: 47px;
+  background-color: rgb(255, 255, 255);
+}
+
+.text {
+  text-align: center;
+}
+
+._button {
+  display: block;
+  float: left;
+  background-color: rgba(222, 222, 222, 0);
+  text-align: center;
+}
+
+.container ._button {
+  clear: both;
+  width: 376px;
+  height: 39px;
+  max-height: 39px;
+  border: 2px solid rgb(43, 40, 40);
+  border-radius: 6px;
+  font-size: 0.762em;
+  color: rgb(43, 40, 40);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container ._button:hover {
+  background-color: rgb(43, 40, 40);
+  color: rgb(255, 255, 255);
+}
+
+.navbar ._button {
+  height: 35px;
+  min-height: 35px;
+  margin-top: 8px;
+}
+
+.container-1 {
+  clear: both;
+  z-index: 4;
+  margin-left: 10%;
+}
+
+.container-2 {
+  z-index: 8;
+  margin-left: 17.33073%;
+}
+
+.text-1 {
+  width: 375px;
+  height: 49px;
+  margin: 137px auto 0;
+  font-size: 1.714em;
+  color: rgb(43, 40, 40);
+}
+
+.text-3 {
+  clear: both;
+  width: 373px;
+  font-size: 1em;
+}
+
+.text-2,
+.text-4 {
+  width: 375px;
+  height: 49px;
+  font-size: 1.714em;
+}
+
+.text-5 {
+  clear: both;
+  width: 373px;
+  font-size: 1.048em;
+}
+
+.text-6 {
+  width: 375px;
+  height: 49px;
+  margin: 466px auto 0;
+  font-size: 1.714em;
+  color: rgb(255, 54, 54);
+}
+
+.text-7 {
+  margin: 1890px auto 0;
+  font-size: 0.762em;
+  color: rgb(0, 0, 0);
+}
+
+.container ._button-6 {
+  margin: 7px 0 0 -0.06649%;
+}
+
+.container ._button-7 {
+  margin-top: 55px;
+}
+
+.navbar ._button-1 {
+  width: 7.5020610057%;
+  min-width: 90px;
+  margin-left: 1.1731799999%;
+  font-size: 0.762em;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.navbar ._button-2 {
+  width: 7.9142621599%;
+  min-width: 95px;
+  margin-left: 1.17448%;
+  font-size: 0.762em;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.navbar ._button-3 {
+  width: 7.5020610057%;
+  min-width: 90px;
+  margin-left: 1.17448%;
+  font-size: 0.762em;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.navbar ._button-1:hover,
+.navbar ._button-2:hover,
+.navbar ._button-3:hover {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 6px;
+}
+
+.navbar ._button-4 {
+  width: 14.3333333333%;
+  min-width: 172px;
+  margin-left: 8.47917%;
+  border-radius: 6px;
+  font-size: 0.667em;
+  color: rgb(255, 255, 255);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar ._button-4:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  border-radius: 6px;
+  background-color: rgb(144, 155, 233);
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.navbar ._button-5 {
+  width: 11.788953009%;
+  min-width: 141px;
+  margin-left: 8.71094%;
+  border: 2px solid #ff3636;
+  border-radius: 6px;
+  font-size: 0.762em;
+  color: rgb(255, 54, 54);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar ._button-5:hover {
+  border: 2 solid #909be9;
+  border-radius: 6px;
+  background-color: rgb(255, 54, 54);
+  color: #ffffff;
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: rgb(255, 54, 54);
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+@media(max-width: 900px) {
+  .container {
+    position: relative;
+    height: 319px;
+    max-height: none;
+    margin-top: 72px;
+  }
+
+  .container .text {
+    margin-left: 0;
+  }
+
+  .navbar {
+    height: 47px;
+  }
+
+  .navbar .element {
+    position: relative;
+    z-index: 9;
+  }
+
+  .container ._button {
+    width: 282px;
+  }
+
+  .container .text-2,
+  .container .text-3,
+  .container .text-4 {
+    width: 282px;
+  }
+
+  .container .text-5 {
+    width: 277px;
+  }
+
+  .container-1 {
+    z-index: 4;
+    width: 46.8333333333%;
+  }
+
+  .container-2 {
+    clear: both;
+    z-index: 8;
+    width: 47%;
+    margin-left: 17.3316%;
+  }
+
+  .text-1 {
+    margin-top: 150px;
+  }
+
+  .text-6 {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 17;
+    margin-top: -329px;
+    margin-right: 0;
+    margin-left: 29.16667%;
+  }
+
+  .text-7 {
+    margin-top: 2392px;
+  }
+
+  .container ._button-6 {
+    margin-left: 0;
+  }
+
+  .container ._button-7 {
+    margin-top: 111px;
+  }
+
+  .navbar ._button-2 {
+    position: relative;
+    z-index: 12;
+    margin-left: 1.17188%;
+  }
+
+  .navbar ._button-1,
+  .navbar ._button-3 {
+    margin-left: 1.17188%;
+  }
+
+  .navbar ._button-4 {
+    margin-left: 2.40278%;
+  }
+
+  .navbar ._button-5 {
+    margin-left: 3.13021%;
+  }
+}
+
+@media(max-width: 600px) {
+  body {
+    font-size: 1.313em;
+  }
+
+  .container {
+    position: relative;
+    float: none;
+    clear: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .navbar {
+    height: 51px;
+  }
+
+  .navbar .element {
+    position: relative;
+    z-index: 9;
+  }
+
+  .container .text-4,
+  .container .text-5 {
+    margin-left: -0.06649%;
+  }
+
+  .container-1 {
+    z-index: 4;
+  }
+
+  .container-2 {
+    z-index: 8;
+    margin-top: 45px;
+  }
+
+  .text-6 {
+    position: relative;
+    float: none;
+    clear: none;
+    z-index: 17;
+    margin-top: 46px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-7 {
+    margin-top: 1542px;
+  }
+
+  .container ._button-6,
+  .container .text-2,
+  .container .text-3 {
+    margin-left: -0.35587%;
+  }
+
+  .navbar ._button-1 {
+    position: relative;
+    z-index: 11;
+  }
+
+  .navbar ._button-2 {
+    position: relative;
+    z-index: 12;
+  }
+
+  .navbar ._button-4 {
+    clear: both;
+    width: 28.6666666666%;
+    min-width: 0;
+    height: 1px;
+    min-height: 0;
+    margin-top: 0;
+    margin-left: 10%;
+  }
+
+  .navbar ._button-5 {
+    margin-top: -42px;
+    margin-left: 33.86198%;
+  }
+}
+
+@media(max-width: 400px) {
+  .container {
+    position: relative;
+  }
+
+  .navbar {
+    height: 89px;
+  }
+
+  .navbar .element {
+    position: relative;
+    z-index: 9;
+  }
+
+  .container ._button {
+    width: 278px;
+  }
+
+  .navbar ._button {
+    position: relative;
+  }
+
+  .container .text-2,
+  .container .text-3 {
+    margin-left: -0.06205%;
+  }
+
+  .container .text-4,
+  .container .text-5 {
+    margin-left: -0.05621%;
+  }
+
+  .container-1 {
+    z-index: 4;
+    width: 69.25%;
+  }
+
+  .container-2 {
+    z-index: 8;
+    width: 69.5%;
+    margin-top: 72px;
+  }
+
+  .text-6 {
+    position: relative;
+    z-index: 17;
+    margin-top: 83px;
+  }
+
+  .text-7 {
+    margin-top: 1478px;
+  }
+
+  .container ._button-6 {
+    margin-left: -0.36101%;
+  }
+
+  .navbar ._button-1 {
+    z-index: 11;
+  }
+
+  .navbar ._button-2 {
+    z-index: 12;
+  }
+
+  .navbar ._button-3 {
+    z-index: 13;
+  }
+
+  .navbar ._button-4 {
+    z-index: 14;
+    width: 2%;
+    min-width: 2px;
+    margin-left: 10.25%;
+  }
+
+  .navbar ._button-5 {
+    z-index: 10;
+    margin-top: 0;
+    margin-left: 47.04688%;
+  }
+}
